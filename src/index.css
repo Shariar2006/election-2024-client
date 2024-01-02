@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background: linear-gradient(
+  45deg,
+  rgba(197, 195, 197, 0.6),
+  rgba(182, 181, 183, 0.7)
+  ) ,
+   url('https://i.ibb.co/qRrPZMh/image-1920x922.png') center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.notoBangla{
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.tiroBangla{
+  font-family: 'Tiro Bangla', serif;
+}
+

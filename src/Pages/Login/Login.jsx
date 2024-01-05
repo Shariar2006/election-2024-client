@@ -1,6 +1,11 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Components/AuthContext/AuthProvider";
+import swal from "sweetalert";
 
 const Login = () => {
+
+  const {userLogin} = useContext(AuthContext)
 
   const handleLogin = e =>{
     e.preventDefault()
@@ -8,6 +13,21 @@ const Login = () => {
         const email = form.email.value
         const password = form.password.value
         console.log(email, password)
+
+        userLogin(email, password)
+            .then(result => {
+                console.log(result.user)
+                if (result.user) {
+                  swal("স্বাগতম!", "আপনি সফল ভাবে login করতে পেরেছেন। !", "success")
+
+                    // navigate(form, { replace: true })
+                }
+                // Swal("Good job!", "You are successfully Logged in!", "success");
+            })
+            .catch(error => { 
+              console.log(error) 
+              return swal("Sorry!", `${error}`, "error");
+            })
   }
 
   return (

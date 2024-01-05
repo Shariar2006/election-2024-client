@@ -6,7 +6,7 @@ import swal from 'sweetalert';
 
 const Register = () => {
 
-    const { createUser, logOut } = useContext(AuthContext)
+    const { createUser, logOut, handleUpdateProfile } = useContext(AuthContext)
     const navigate = useNavigate()
 
     const handleRegister = e => {
@@ -21,10 +21,13 @@ const Register = () => {
         if (idNum.length === 10 || idNum.length === 16) {
             createUser(email, password)
                 .then((res) => {
-                    swal("স্বাগতম!", "আপনি সফল ভাবে register করতে পেরেছেন। !", "success")
-                    console.log(res.user)
-                    logOut()
-                    navigate('/login')
+                    if(res.user){
+                        swal("স্বাগতম!", "আপনি সফল ভাবে register করতে পেরেছেন। !", "success")
+                        logOut()
+                        navigate('/login')
+                    }
+                    handleUpdateProfile(name)
+
                 })
                 .catch((error) => {
                     console.log(error)

@@ -1,11 +1,12 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Components/AuthContext/AuthProvider";
 import swal from "sweetalert";
 
 const Login = () => {
 
   const {userLogin} = useContext(AuthContext)
+  const navigate = useNavigate()
 
   const handleLogin = e =>{
     e.preventDefault()
@@ -20,7 +21,8 @@ const Login = () => {
                 if (result.user) {
                   swal("স্বাগতম!", "আপনি সফল ভাবে login করতে পেরেছেন। !", "success")
 
-                    // navigate(form, { replace: true })
+                    navigate('/vote')
+                    // <Navigate to='/login' state={{from: location}} replace></Navigate>
                 }
                 // Swal("Good job!", "You are successfully Logged in!", "success");
             })

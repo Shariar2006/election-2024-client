@@ -2,10 +2,11 @@ import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Components/AuthContext/AuthProvider";
 import swal from 'sweetalert';
+import useAxiosPublic from "../../Hooks/useAxiosPublic";
 
 
 const Register = () => {
-
+    const axiosPublic = useAxiosPublic()
     const { createUser, logOut, handleUpdateProfile } = useContext(AuthContext)
     const navigate = useNavigate()
 
@@ -21,12 +22,22 @@ const Register = () => {
         if (idNum.length === 10 || idNum.length === 16) {
             createUser(email, password)
                 .then((res) => {
-                    if(res.user){
-                        swal("স্বাগতম!", "আপনি সফল ভাবে register করতে পেরেছেন। !", "success")
-                        logOut()
-                        navigate('/login')
+                    const userInfo = {
+                        email: email,
+                        name: name,
+                        idNum: idNum,
                     }
-                    handleUpdateProfile(name)
+                    if (res.user) {
+                        axiosPublic.post('/users', userInfo)
+                        .then((res)=>{
+                            if(res.data.insertedId){
+                                swal("স্বাগতম!", "আপনি সফল ভাবে register করতে পেরেছেন। !", "success")
+                                logOut()
+                                navigate('/login')
+                                handleUpdateProfile(name)
+                            }
+                        })
+                    }
 
                 })
                 .catch((error) => {

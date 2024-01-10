@@ -1,8 +1,64 @@
+import { useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import District from "./District";
 
 const Vote = () => {
+
+    const voterData = useLoaderData()
+
+    console.log(voterData)
+
+    const [divisions, setDivisions] = useState('আপনার বিভাগ নির্বাচন করুন')
+    const [district, setDistrict] = useState('আপনার জেলা নির্বাচন করুন')
+    const [districts, setDistricts] = useState([])
+
+    const changeDivision = e => {
+        setDivisions(e.target.value)
+        setDistricts(voterData.find(dis => dis.division === e.target.value).district)
+    }
+    console.log(district)
+
     return (
         <div className="min-h-screen">
-            
+            <form className="card-body voteFrom">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-lg font-bold">
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">আপনার বিভাগ নির্বাচন করুন</span>
+                        </label>
+                        <select value={divisions} onChange={changeDivision} required className="bg-none bg-transparent border border-black rounded-md p-2">
+                            <option disabled selected>আপনার বিভাগ নির্বাচন করুন</option>
+                            {
+                                voterData?.map(division => {
+                                    return <option value={division?.division} key={division?._id}>{division?.division}</option>
+                                })
+                            }
+                        </select>
+                    </div>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Email</span>
+                        </label>
+                        <select value={district} required className="bg-none bg-transparent border border-black rounded-md p-2">
+                            <option disabled selected>আপনার জেলা নির্বাচন করুন</option>
+                            {
+                                districts?.map(district => {
+                                    return <option value={district?.districtName} key={district?.districtName}>{district?.districtName}</option>
+                                })
+                            }
+                        </select>
+                    </div>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Email</span>
+                        </label>
+                        <select required className="bg-none bg-transparent border border-black rounded-md p-2"></select>
+                    </div>
+                </div>
+                <div className="form-control mt-6">
+                    <button className="btn btn-primary">Login</button>
+                </div>
+            </form>
         </div>
     );
 };

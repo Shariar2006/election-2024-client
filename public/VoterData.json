@@ -1,0 +1,242 @@
+[
+    {
+        "_id": "01",
+        "division": "বরিশাল",
+        "district": [
+            {
+                "districtName": "বরগুনা"
+            },
+            {
+                "districtName": "বরিশাল"
+            },
+            {
+                "districtName": "ভোলা"
+            },
+            {
+                "districtName": "ঝালকাঠি"
+            },
+            {
+                "districtName": "পটুয়াখালী"
+            },
+            {
+                "districtName": "পিরোজপুর"
+            }
+        ]
+    },
+    {
+        "_id": "02",
+        "division": "চট্টগ্রাম",
+        "district": [
+            {
+                "districtName": "বান্দরবান"
+            },
+            {
+                "districtName": "ব্রাহ্মণবাড়িয়া"
+            },
+            {
+                "districtName": "চাঁদপুর"
+            },
+            {
+                "districtName": "চট্টগ্রাম"
+            },
+            {
+                "districtName": "কুমিল্লা"
+            },
+            {
+                "districtName": "কক্সবাজার"
+            },
+            {
+                "districtName": "ফেনী"
+            },
+            {
+                "districtName": "খাগড়াছড়ি"
+            },
+            {
+                "districtName": "লক্ষ্মীপুর"
+            },
+            {
+                "districtName": "নোয়াখালী"
+            },
+            {
+                "districtName": "রাঙ্গামাটি"
+            }
+        ]
+    },
+    {
+        "_id": "03",
+        "division": "ঢাকা",
+        "district": [
+            {
+                "districtName": "ঢাকা"
+            },
+            {
+                "districtName": "ফরিদপুর"
+            },
+            {
+                "districtName": "গাজীপুর"
+            },
+            {
+                "districtName": "গোপালগঞ্জ"
+            },
+            {
+                "districtName": "কিশোরগঞ্জ"
+            },
+            {
+                "districtName": "মাদারীপুর"
+            },
+            {
+                "districtName": "মানিকগঞ্জ"
+            },
+            {
+                "districtName": "মুন্সীগঞ্জ"
+            },
+            {
+                "districtName": "নারায়ণগঞ্জ"
+            },
+            {
+                "districtName": "নরসিংদী"
+            },
+            {
+                "districtName": "রাজবাড়ী"
+            },
+            {
+                "districtName": "শরীয়তপুর"
+            },
+            {
+                "districtName": "টাঙ্গাইল"
+            }
+        ]
+    },
+    {
+        "_id": "04",
+        "division": "খুলনা",
+        "district": [
+            {
+                "districtName": "বাগেরহাট"
+            },
+            {
+                "districtName": "চুয়াডাঙ্গা"
+            },
+            {
+                "districtName": "যশোর"
+            },
+            {
+                "districtName": "ঝিনাইদহ"
+            },
+            {
+                "districtName": "খুলনা"
+            },
+            {
+                "districtName": "কুষ্টিয়া"
+            },
+            {
+                "districtName": "মাগুরা"
+            },
+            {
+                "districtName": "মেহেরপুর"
+            },
+            {
+                "districtName": "নড়াইল"
+            },
+            {
+                "districtName": "সাতক্ষীরা"
+            }
+        ]
+    },
+    {
+        "_id": "05",
+        "division": "ময়মনসিংহ",
+        "district": [
+            {
+                "districtName": "ময়মনসিংহ"
+            },
+            {
+                "districtName": "জামালপুর"
+            },
+            {
+                "districtName": "শেরপুর"
+            },
+            {
+                "districtName": "নেত্রকোনা"
+            }
+        ]
+    },
+    {
+        "_id": "06",
+        "division": "রাজশাহী",
+        "district": [
+            {
+                "districtName": "বগুড়া"
+            },
+            {
+                "districtName": "জয়পুরহাট"
+            },
+            {
+                "districtName": "নওগাঁ"
+            },
+            {
+                "districtName": "নাটোর"
+            },
+            {
+                "districtName": "নবাবগঞ্জ"
+            },
+            {
+                "districtName": "পাবনা"
+            },
+            {
+                "districtName": "রাজশাহী"
+            },
+            {
+                "districtName": "সিরাজগঞ্জ"
+            }
+        ]
+    },
+    {
+        "_id": "07",
+        "division": "সিলেট",
+        "district": [
+            {
+                "districtName": "হবিগঞ্জ"
+            },
+            {
+                "districtName": "মৌলভীবাজার"
+            },
+            {
+                "districtName": "সুনামগঞ্জ"
+            },
+            {
+                "districtName": "সিলেট"
+            }
+        ]
+    },
+    {
+        "_id": "08",
+        "division": "রংপুর",
+        "district": [
+            {
+                "districtName": "রংপুর"
+            },
+            {
+                "districtName": "নীলফামারী"
+            },
+            {
+                "districtName": "দিনাজপুর"
+            },
+            {
+                "districtName": "পঞ্চগড়"
+            },
+            {
+                "districtName": "গাইবান্ধা"
+            },
+            {
+                "districtName": "কুড়িগ্রাম"
+            },
+            {
+                "districtName": "লালমনিরহাট"
+            },
+            {
+                "districtName": "ঠাকুরগাঁও"
+            }
+        ]
+    }
+]

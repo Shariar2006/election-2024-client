@@ -28,7 +28,8 @@ const router = createBrowserRouter([
             },
             {
                 path: '/vote',
-                element: <PrivateRoute><Vote></Vote></PrivateRoute>
+                element: <PrivateRoute><Vote></Vote></PrivateRoute>,
+                loader: () => fetch('/VoterData.json')
             },
         ]
     },

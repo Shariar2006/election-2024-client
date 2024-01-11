@@ -16,6 +16,11 @@ const Vote = () => {
         setDivisions(e.target.value)
         setDistricts(voterData.find(dis => dis.division === e.target.value).district)
     }
+
+    const changeDistrict = e => {
+        setDistrict(e.target.value)
+        // setDistricts(voterData.find(dis => dis.division === e.target.value).district)
+    }
     console.log(district)
 
     return (
@@ -39,7 +44,7 @@ const Vote = () => {
                         <label className="label">
                             <span className="label-text">Email</span>
                         </label>
-                        <select value={district} required className="bg-none bg-transparent border border-black rounded-md p-2">
+                        <select value={district} onChange={changeDistrict} required className="bg-none bg-transparent border border-black rounded-md p-2">
                             <option disabled selected>আপনার জেলা নির্বাচন করুন</option>
                             {
                                 districts?.map(district => {

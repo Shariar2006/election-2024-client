@@ -4,22 +4,28 @@
         "division": "বরিশাল",
         "district": [
             {
-                "districtName": "বরগুনা"
+                "districtName": "বরগুনা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "বরিশাল"
+                "districtName": "বরিশাল",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "ভোলা"
+                "districtName": "ভোলা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "ঝালকাঠি"
+                "districtName": "ঝালকাঠি",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "পটুয়াখালী"
+                "districtName": "পটুয়াখালী",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "পিরোজপুর"
+                "districtName": "পিরোজপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             }
         ]
     },
@@ -28,37 +34,48 @@
         "division": "চট্টগ্রাম",
         "district": [
             {
-                "districtName": "বান্দরবান"
+                "districtName": "বান্দরবান",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "ব্রাহ্মণবাড়িয়া"
+                "districtName": "ব্রাহ্মণবাড়িয়া",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "চাঁদপুর"
+                "districtName": "চাঁদপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "চট্টগ্রাম"
+                "districtName": "চট্টগ্রাম",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "কুমিল্লা"
+                "districtName": "কুমিল্লা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "কক্সবাজার"
+                "districtName": "কক্সবাজার",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "ফেনী"
+                "districtName": "ফেনী",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "খাগড়াছড়ি"
+                "districtName": "খাগড়াছড়ি",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "লক্ষ্মীপুর"
+                "districtName": "লক্ষ্মীপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নোয়াখালী"
+                "districtName": "নোয়াখালী",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "রাঙ্গামাটি"
+                "districtName": "রাঙ্গামাটি",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             }
         ]
     },
@@ -67,43 +84,56 @@
         "division": "ঢাকা",
         "district": [
             {
-                "districtName": "ঢাকা"
+                "districtName": "ঢাকা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "ফরিদপুর"
+                "districtName": "ফরিদপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "গাজীপুর"
+                "districtName": "গাজীপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "গোপালগঞ্জ"
+                "districtName": "গোপালগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "কিশোরগঞ্জ"
+                "districtName": "কিশোরগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "মাদারীপুর"
+                "districtName": "মাদারীপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "মানিকগঞ্জ"
+                "districtName": "মানিকগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "মুন্সীগঞ্জ"
+                "districtName": "মুন্সীগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নারায়ণগঞ্জ"
+                "districtName": "নারায়ণগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নরসিংদী"
+                "districtName": "নরসিংদী",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "রাজবাড়ী"
+                "districtName": "রাজবাড়ী",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "শরীয়তপুর"
+                "districtName": "শরীয়তপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "টাঙ্গাইল"
+                "districtName": "টাঙ্গাইল",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             }
         ]
     },
@@ -112,34 +142,44 @@
         "division": "খুলনা",
         "district": [
             {
-                "districtName": "বাগেরহাট"
+                "districtName": "বাগেরহাট",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "চুয়াডাঙ্গা"
+                "districtName": "চুয়াডাঙ্গা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "যশোর"
+                "districtName": "যশোর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "ঝিনাইদহ"
+                "districtName": "ঝিনাইদহ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "খুলনা"
+                "districtName": "খুলনা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "কুষ্টিয়া"
+                "districtName": "কুষ্টিয়া",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "মাগুরা"
+                "districtName": "মাগুরা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "মেহেরপুর"
+                "districtName": "মেহেরপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নড়াইল"
+                "districtName": "নড়াইল",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "সাতক্ষীরা"
+                "districtName": "সাতক্ষীরা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             }
         ]
     },
@@ -148,16 +188,20 @@
         "division": "ময়মনসিংহ",
         "district": [
             {
-                "districtName": "ময়মনসিংহ"
+                "districtName": "ময়মনসিংহ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "জামালপুর"
+                "districtName": "জামালপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "শেরপুর"
+                "districtName": "শেরপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নেত্রকোনা"
+                "districtName": "নেত্রকোনা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             }
         ]
     },
@@ -166,28 +210,36 @@
         "division": "রাজশাহী",
         "district": [
             {
-                "districtName": "বগুড়া"
+                "districtName": "বগুড়া",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "জয়পুরহাট"
+                "districtName": "জয়পুরহাট",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নওগাঁ"
+                "districtName": "নওগাঁ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নাটোর"
+                "districtName": "নাটোর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নবাবগঞ্জ"
+                "districtName": "নবাবগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "পাবনা"
+                "districtName": "পাবনা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "রাজশাহী"
+                "districtName": "রাজশাহী",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "সিরাজগঞ্জ"
+                "districtName": "সিরাজগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             }
         ]
     },
@@ -196,16 +248,20 @@
         "division": "সিলেট",
         "district": [
             {
-                "districtName": "হবিগঞ্জ"
+                "districtName": "হবিগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "মৌলভীবাজার"
+                "districtName": "মৌলভীবাজার",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "সুনামগঞ্জ"
+                "districtName": "সুনামগঞ্জ",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "সিলেট"
+                "districtName": "সিলেট",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             }
         ]
     },
@@ -214,28 +270,36 @@
         "division": "রংপুর",
         "district": [
             {
-                "districtName": "রংপুর"
+                "districtName": "রংপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "নীলফামারী"
+                "districtName": "নীলফামারী",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "দিনাজপুর"
+                "districtName": "দিনাজপুর",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "পঞ্চগড়"
+                "districtName": "পঞ্চগড়",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "গাইবান্ধা"
+                "districtName": "গাইবান্ধা",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "কুড়িগ্রাম"
+                "districtName": "কুড়িগ্রাম",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "লালমনিরহাট"
+                "districtName": "লালমনিরহাট",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             },
             {
-                "districtName": "ঠাকুরগাঁও"
+                "districtName": "ঠাকুরগাঁও",
+                "seats": ["seat 1", "seat 2", "seat 3"]
             }
         ]
     }

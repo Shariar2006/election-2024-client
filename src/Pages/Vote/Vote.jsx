@@ -27,17 +27,25 @@ const Vote = () => {
     const changeSeat = e => {
         setSeat(e.target.value)
     }
-    console.log(district)
+
+    const handleSubmit = e => {
+        e.preventDefault()
+        const form = e.target;
+        const division = form.division.value
+        const district = form.district.value
+        const seat = form.seat.value
+        console.log(division, district, seat)
+    }
 
     return (
-        <div className="min-h-screen">
-            <form className="card-body voteFrom">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-lg font-bold">
+        <div className="min-h-screen lg:min-h-[80vh]">
+            <form onSubmit={handleSubmit} className="card-body voteFrom w-80 lg:w-1/2 mx-auto">
+                <div className=" text-lg font-bold">
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">আপনার বিভাগ নির্বাচন করুন</span>
                         </label>
-                        <select value={divisions} onChange={changeDivision} required className="bg-none bg-transparent border border-black rounded-md p-2">
+                        <select name="division" value={divisions} onChange={changeDivision} required className="bg-none bg-transparent border border-black rounded-md p-2">
                             <option disabled selected>আপনার বিভাগ নির্বাচন করুন</option>
                             {
                                 voterData?.map(division => {
@@ -50,7 +58,7 @@ const Vote = () => {
                         <label className="label">
                             <span className="label-text">আপনার জেলা নির্বাচন করুন</span>
                         </label>
-                        <select value={district} onChange={changeDistrict} required className="bg-none bg-transparent border border-black rounded-md p-2">
+                        <select name="district" value={district} onChange={changeDistrict} required className="bg-none bg-transparent border border-black rounded-md p-2">
                             <option disabled selected>আপনার জেলা নির্বাচন করুন</option>
                             {
                                 districts?.map(district => {
@@ -63,7 +71,7 @@ const Vote = () => {
                         <label className="label">
                             <span className="label-text">আপনার আসন নির্বাচন করুন</span>
                         </label>
-                        <select value={seat} onChange={changeSeat} required className="bg-none bg-transparent border border-black rounded-md p-2">
+                        <select name="seat" value={seat} onChange={changeSeat} required className="bg-none bg-transparent border border-black rounded-md p-2">
                             <option disabled selected>আপনার আসন নির্বাচন করুন</option>
                             {
                                 seats?.map(seat => {
@@ -73,8 +81,8 @@ const Vote = () => {
                         </select>
                     </div>
                 </div>
-                <div className="form-control mt-6">
-                    <button className="btn btn-primary">Login</button>
+                <div className=" mt-6">
+                    <input className="btn btn-primary" type="submit" value="Next" />
                 </div>
             </form>
         </div>

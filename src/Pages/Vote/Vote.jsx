@@ -10,7 +10,9 @@ const Vote = () => {
 
     const [divisions, setDivisions] = useState('আপনার বিভাগ নির্বাচন করুন')
     const [district, setDistrict] = useState('আপনার জেলা নির্বাচন করুন')
+    const [seat, setSeat] = useState('আপনার জেলা নির্বাচন করুন')
     const [districts, setDistricts] = useState([])
+    const [seats, setSeats] = useState([])
 
     const changeDivision = e => {
         setDivisions(e.target.value)
@@ -19,7 +21,11 @@ const Vote = () => {
 
     const changeDistrict = e => {
         setDistrict(e.target.value)
-        // setDistricts(voterData.find(dis => dis.division === e.target.value).district)
+        setSeats(districts.find(seat => seat.districtName === e.target.value).seats)
+    }
+
+    const changeSeat = e => {
+        setSeat(e.target.value)
     }
     console.log(district)
 
@@ -42,7 +48,7 @@ const Vote = () => {
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Email</span>
+                            <span className="label-text">আপনার জেলা নির্বাচন করুন</span>
                         </label>
                         <select value={district} onChange={changeDistrict} required className="bg-none bg-transparent border border-black rounded-md p-2">
                             <option disabled selected>আপনার জেলা নির্বাচন করুন</option>
@@ -55,9 +61,16 @@ const Vote = () => {
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Email</span>
+                            <span className="label-text">আপনার আসন নির্বাচন করুন</span>
                         </label>
-                        <select required className="bg-none bg-transparent border border-black rounded-md p-2"></select>
+                        <select value={seat} onChange={changeSeat} required className="bg-none bg-transparent border border-black rounded-md p-2">
+                            <option disabled selected>আপনার আসন নির্বাচন করুন</option>
+                            {
+                                seats?.map(seat => {
+                                    return <option value={seat} key={seat}>{seat}</option>
+                                })
+                            }
+                        </select>
                     </div>
                 </div>
                 <div className="form-control mt-6">
